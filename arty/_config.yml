@@ -23,9 +23,9 @@ title: Arty
 description: >- # this means to ignore newlines until "baseurl:"
   Arty is an image viewer for art history. Organize your images, 
   annotate, view and compare, and export to Powerpoint presentation.
-domain: florian-rieder.github.io/arty      # if you want to force HTTPS, specify the domain without the http at the start, e.g. example.com
-url: https://florian-rieder.github.io/arty # the base hostname and protocol for your site, e.g. http://example.com
-#baseurl: /arty                        # place folder name if the site is served in a subfolder
+domain: florian-rieder.github.io      # if you want to force HTTPS, specify the domain without the http at the start, e.g. example.com
+url: https://florian-rieder.github.io # the base hostname and protocol for your site, e.g. http://example.com
+baseurl: /arty                        # place folder name if the site is served in a subfolder
 permalink: /:title/
 
 #twitter_username: RiederFlorian
