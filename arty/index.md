@@ -17,7 +17,7 @@ title: Home
 
 <img src="{{ '/assets/images/main_view.png' | relative_url }}" alt="Arty's main view">
 
-Arty is an image viewer for art history.
+<p>Arty is an image viewer for art history.</p>
 
 <div style="border: 2px solid black; margin: 1em; padding: 1em;">
     <span id="big">This is a test div, and it works</span>
