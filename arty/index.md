@@ -15,9 +15,9 @@ title: Home
     }
 </style>
 
-<img src="/arty/assets/images/main_view.png" alt="Arty's main view" style="width: 100vw">
+<img src="{{ '/assets/images/main_view.png' | relative_url }}" alt="Arty's main view">
 
-<h1>Hello ! This is the home page.</h1>
+Arty is an image viewer for art history.
 
 <div style="border: 2px solid black; margin: 1em; padding: 1em;">
     <span id="big">This is a test div, and it works</span>
