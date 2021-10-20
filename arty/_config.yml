@@ -19,12 +19,12 @@
 # in the templates via {{ site.myvariable }}.
 
 title: Arty
-email: your-email@example.com
+#email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
   Arty is an image viewer for art history. Organize your images, 
   annotate, view and compare, and export to Powerpoint presentation.
-domain: florian-rieder.github.io      # if you want to force HTTPS, specify the domain without the http at the start, e.g. example.com
-url: https://florian-rieder.github.io # the base hostname and protocol for your site, e.g. http://example.com
+domain: florian-rieder.github.io/arty      # if you want to force HTTPS, specify the domain without the http at the start, e.g. example.com
+url: https://florian-rieder.github.io/arty # the base hostname and protocol for your site, e.g. http://example.com
 #baseurl: /arty                        # place folder name if the site is served in a subfolder
 permalink: /:title/
 
@@ -35,6 +35,8 @@ github_username:  florian-rieder
 theme: minima
 plugins:
   - jekyll-feed
+
+google_analytics: G-95B0N82LK2
 
 # Exclude from processing.
 # The following items will not be processed, by default.
